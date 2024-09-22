@@ -22,10 +22,10 @@ else:
 
 # Define the twist curves
 curves = {
-    "Twist Curve 1": ElliptCurve(GF(p), [0, -7]),
-    "Twist Curve 2": ElliptCurve(GF(p), [0, -6]),
-    "Twist Curve 3": ElliptCurve(GF(p), [0, -1]),
-    "Twist Curve 4": ElliptCurve(GF(p), [0, 17])
+    "Twist Curve 1": EllipticCurve(GF(p), [0, -7]),
+    "Twist Curve 2": EllipticCurve(GF(p), [0, -6]),
+    "Twist Curve 3": EllipticCurve(GF(p), [0, -1]),
+    "Twist Curve 4": EllipticCurve(GF(p), [0, 17])
 }
 
 # Function to check the Legendre symbol
